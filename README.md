@@ -42,7 +42,6 @@ The backend is deployed using [Render.com](https://render.com).
 ## 📁 Project Status
 
 ✅ Completed and tested using Postman  
-✅ Integrated with OpenAI API  
 ✅ Live deployment working
 
 ---
