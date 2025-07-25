@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { FaIndent } = require("react-icons/fa");
 
 const getTransactions = async (req, res) => {
   const transactionsModel = mongoose.model("transactions");
