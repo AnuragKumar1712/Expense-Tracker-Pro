@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
-const jwtManager = require("../../../managers/jwtManager");
-const emailManager = require("../../../managers/emailManager");
+const jwtManager = require("../../../../handlers/managers/jwtManager");
+const emailManager = require("../../../../handlers/managers/emailManager");
 
 const register = async (req, res) => {
   const usersModel = mongoose.model("users");
